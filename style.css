@@ -141,6 +141,14 @@ nav a:hover {
   .sp {
     margin-left: 3px;
   }
+  .hero {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .ul {
+    margin-left: 0;
+  }
 }
 .img1 img {
   position: relative;
