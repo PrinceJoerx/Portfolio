@@ -128,9 +128,9 @@ nav a:hover {
     text-align: center;
     margin-right: 0;
     height: 35px;
-    color: purple;
+    color: blueviolet;
     background-color: transparent;
-    border: 1px solid indigo;
+    border: 1px solid blueviolet;
   }
 
   .btn0 h1 {
@@ -142,13 +142,10 @@ nav a:hover {
 
   .btn0:hover {
     height: 35px;
-    background-color: indigo;
+    color: white;
+    background-color: blueviolet;
     transition: 0.3s;
   }
-  /* 
-  .ul {
-    margin-left: 0;
-  } */
   .btn002 {
     text-align: center;
   }
@@ -171,7 +168,7 @@ nav a:hover {
     width: 5px;
     height: 5px;
     margin-top: 0.9rem;
-    left: -10px;
+    left: -15px;
   }
   .hero {
     flex-wrap: wrap-reverse;
