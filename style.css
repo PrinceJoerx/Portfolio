@@ -158,6 +158,7 @@ nav a:hover {
   }
 
   .hero {
+    flex-wrap: wrap-reverse;
     padding: 2rem 1rem;
     flex-direction: column-reverse;
     text-align: center;
@@ -169,13 +170,14 @@ nav a:hover {
     width: 5px;
     height: 5px;
     margin-top: 0.9rem;
+    left: -10px;
   }
   .hero {
     flex-wrap: wrap-reverse;
   }
 
   .img1 {
-    width: 100%;
+    width: 50px%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
