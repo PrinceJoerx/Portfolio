@@ -146,8 +146,15 @@ nav a:hover {
   }
 }
 @media (max-width: 480px) {
+  .btn0 {
+    height: 20px;
+  }
   .ul {
     margin-left: 0;
+  }
+  nav ul li {
+    margin: 0 7px;
+    font-size: x-small;
   }
 }
 .img1 img {
