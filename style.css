@@ -106,6 +106,42 @@ nav a:hover {
   padding: 0 5rem;
   border-bottom: 5px solid rgba(0, 0, 0, 0.116);
 }
+.sp {
+  margin-left: 7px;
+}
+
+@media (max-width: 768px) {
+  .img1 img {
+    display: none;
+  }
+  .pri {
+    margin-left: 0;
+  }
+  .btn0 h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .btn0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+    height: 30px;
+  }
+  .btn0:hover {
+    height: 30px;
+    background-color: indigo;
+    transition: 0.3s;
+  }
+  .btn002 {
+    text-align: center;
+  }
+  .sp {
+    margin-left: 3px;
+  }
+}
 .img1 img {
   position: relative;
   top: -7rem;
@@ -239,8 +275,8 @@ section {
 .project-info {
   padding: 20px;
 }
-.main-content  {
-margin-top: 7rem;
+.main-content {
+  margin-top: 7rem;
 }
 .skills-list {
   display: flex;
