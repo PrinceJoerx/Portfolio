@@ -128,6 +128,7 @@ nav a:hover {
     text-align: center;
     margin-right: 0;
     height: 35px;
+    color: purple;
     background-color: transparent;
     border: 1px solid indigo;
   }
@@ -164,6 +165,11 @@ nav a:hover {
 }
 
 @media (max-width: 480px) {
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin-top: 0.9rem;
+  }
   .hero {
     flex-wrap: wrap-reverse;
   }
@@ -177,9 +183,8 @@ nav a:hover {
 
   .img1 img {
     display: block;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.116);
     background-color: blueviolet;
